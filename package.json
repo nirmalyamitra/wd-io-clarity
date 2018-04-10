@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "wdio"
+    "test": "wdio",
+    "selenium-start": "./node_modules/.bin/selenium-standalone start"
   },
   "author": "Nirmalya Mitra",
   "license": "ISC",

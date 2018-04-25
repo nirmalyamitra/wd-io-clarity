@@ -112,6 +112,7 @@ exports.config = {
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
     // services: ['firefox-profile','selenium-standalone','chromedriver','iedriver','screenshots-cleanup'],
+    services: ['devtools'],
     //
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
@@ -119,7 +120,7 @@ exports.config = {
     //
     // Make sure you have the wdio adapter package for the specific framework installed
     // before running any tests.
-    framework: 'jasmine',
+    framework: 'mocha',
     //
     // Test reporter for stdout.
     // The only one supported by default is 'dot'

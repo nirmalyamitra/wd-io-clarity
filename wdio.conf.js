@@ -77,10 +77,10 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'https://www.google.co.in',
+    baseUrl: 'https://www.youtube.com',
     //
     // Default timeout for all waitFor* commands.
-    waitforTimeout: 10000,
+    waitforTimeout: 1000000,
     //
     // Default timeout in milliseconds for request
     // if Selenium Grid doesn't send response
@@ -121,6 +121,9 @@ exports.config = {
     // Make sure you have the wdio adapter package for the specific framework installed
     // before running any tests.
     framework: 'mocha',
+    mochaOpts: {
+        timeout: 99999999
+    },
     //
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
@@ -131,7 +134,7 @@ exports.config = {
     jasmineNodeOpts: {
         //
         // Jasmine default timeout
-        defaultTimeoutInterval: 10000,
+        defaultTimeoutInterval: 1000000,
         //
         // The Jasmine framework allows interception of each assertion in order to log the state of the application
         // or website depending on the result. For example, it is pretty handy to take a screenshot every time

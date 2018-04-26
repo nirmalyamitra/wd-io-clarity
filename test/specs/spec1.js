@@ -1,20 +1,29 @@
 var assert = require('assert');
 
-describe('Google page', () => {
+describe('YouTube page', () => {
     before(() => {
         browser.cdp('Network', 'enable')
 
     });
-    it('should have load Google Home Page', () => {
+    it('should have load YouTube Home Page', () => {
         const start = Date.now();
         browser.url('/');
         var title = browser.getTitle();
-        assert.equal(title, 'Google');
-        //browser.saveScreenshot('google.png');
-        console.log(`Normal Google Loading with ${Date.now()-start} ms`);
+        assert.equal(title, 'YouTube');
+        //browser.saveScreenshot('YouTube.png');
+        console.log(`Normal YouTube Loading took ${Date.now()-start} ms`);
     });
 
-    it('Should load Google on 3G speed', () => {
+    it('should have load YouTube cached Home Page', () => {
+        const start = Date.now();
+        browser.url('/');
+        var title = browser.getTitle();
+        assert.equal(title, 'YouTube');
+        //browser.saveScreenshot('YouTube.png');
+        console.log(`Cached YouTube Loading took ${Date.now()-start} ms`);
+    });
+
+    it('Should load YouTube on 3G speed', () => {
         browser.cdp('Network', 'clearBrowserCache');
         browser.cdp('Network', 'emulateNetworkConditions', {
             offline: false,
@@ -25,7 +34,7 @@ describe('Google page', () => {
         });
         const start = Date.now();
         browser.url('/');
-        console.log(`Google Loading Slow with ${Date.now()-start} ms`);
+        console.log(`YouTube Loading in 3G speed took ${Date.now()-start} ms`);
     });
 
     it('should take JS coverage', () => {

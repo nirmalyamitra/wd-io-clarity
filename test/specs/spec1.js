@@ -1,4 +1,5 @@
 var assert = require('assert');
+var fs = require('fs');
 
 describe('YouTube page', () => {
     before(() => {
@@ -7,7 +8,7 @@ describe('YouTube page', () => {
     });
     it('should have load YouTube Home Page', () => {
         const start = Date.now();
-        browser.url('/');
+        browser.url('https://www.youtube.com');
         var title = browser.getTitle();
         assert.equal(title, 'YouTube');
         //browser.saveScreenshot('YouTube.png');
@@ -16,7 +17,7 @@ describe('YouTube page', () => {
 
     it('should have load YouTube cached Home Page', () => {
         const start = Date.now();
-        browser.url('/');
+        browser.url('https://www.youtube.com');
         var title = browser.getTitle();
         assert.equal(title, 'YouTube');
         //browser.saveScreenshot('YouTube.png');
@@ -33,7 +34,7 @@ describe('YouTube page', () => {
             connnectionType: 'cellular3g'
         });
         const start = Date.now();
-        browser.url('/');
+        browser.url('https://www.youtube.com');
         console.log(`YouTube Loading in 3G speed took ${Date.now()-start} ms`);
     });
 
@@ -52,14 +53,33 @@ describe('YouTube page', () => {
             detailed: true
         })
     
-        browser.url('/')
+        browser.url('http://google.com');
+        $('#lst-ib').setValue('Dam');
+        $('.jsb input[type="submit"]').click();
     
         /**
          * capture test coverage
          */
         const { result } = browser.cdp('Profiler', 'takePreciseCoverage')
         const coverage = result.filter((res) => res.url !== '')
-        console.log(coverage)
+        console.log("\n\n\n\n\n\n\n"+coverage+"\n\n\n\n\n\n\n");
+        fs.appendFile('Network Events/js_coverage.json',coverage, function (err) {
+            if (err) throw err;
+        });
+    });
+
+    it('should listen on network events', () => {
+        console.log('Network Events')
+        browser.cdp('Network', 'enable')
+        browser.on('Network.responseReceived', (params) => {
+            //console.log(`Loaded ${params.response.url}`);
+            //console.log(`${params.response.status}`);
+            fs.appendFile('Network Events/network_events.json',params.response.url+" "+params.response.status+" "+params.response.protocol+"\n", function (err) {
+                if (err) throw err;
+            });
+        });
+        
+        browser.url('https://www.youtube.com');
     });
 
 });

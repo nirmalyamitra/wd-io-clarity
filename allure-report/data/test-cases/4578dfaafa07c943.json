@@ -1,0 +1,99 @@
+{
+  "uid" : "4578dfaafa07c943",
+  "name" : "Should load YouTube on 3G speed",
+  "fullName" : "YouTube page.Should load YouTube on 3G speed",
+  "historyId" : "dcc259fc4f27bbf03b0ce8d22da8a099",
+  "time" : {
+    "start" : 1524820150582,
+    "stop" : 1524820177424,
+    "duration" : 26842
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/a9f1b1a7889e32a0c2e46361f34712d5/url",
+      "time" : {
+        "start" : 1524820150716,
+        "stop" : 1524820177421,
+        "duration" : 26705
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8a01748f8ad15319",
+        "name" : "Request",
+        "source" : "8a01748f8ad15319.json",
+        "type" : "application/json",
+        "size" : 40
+      }, {
+        "uid" : "c036367d1b4acf",
+        "name" : "Response",
+        "source" : "c036367d1b4acf.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "YouTube page"
+  }, {
+    "name" : "testClass",
+    "value" : "YouTube page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should load YouTube on 3G speed"
+  }, {
+    "name" : "package",
+    "value" : "YouTube page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c0592fa88684acf2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524819446118,
+        "stop" : 1524819502968,
+        "duration" : 56850
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4578dfaafa07c943.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,89 @@
+{
+  "uid" : "c0592fa88684acf2",
+  "name" : "Should load YouTube on 3G speed",
+  "fullName" : "YouTube page.Should load YouTube on 3G speed",
+  "historyId" : "dcc259fc4f27bbf03b0ce8d22da8a099",
+  "time" : {
+    "start" : 1524819446118,
+    "stop" : 1524819502968,
+    "duration" : 56850
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/4abd25129453af370fc7de5baea2b030/url",
+      "time" : {
+        "start" : 1524819446151,
+        "stop" : 1524819502967,
+        "duration" : 56816
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b1705c91fd42cf54",
+        "name" : "Request",
+        "source" : "b1705c91fd42cf54.json",
+        "type" : "application/json",
+        "size" : 40
+      }, {
+        "uid" : "2e3a324515badf2c",
+        "name" : "Response",
+        "source" : "2e3a324515badf2c.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "YouTube page"
+  }, {
+    "name" : "testClass",
+    "value" : "YouTube page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should load YouTube on 3G speed"
+  }, {
+    "name" : "package",
+    "value" : "YouTube page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c0592fa88684acf2.json",
+  "parameterValues" : [ "chrome" ]
+}

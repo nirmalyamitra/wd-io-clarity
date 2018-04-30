@@ -62,7 +62,7 @@ describe('YouTube page', () => {
          */
         const { result } = browser.cdp('Profiler', 'takePreciseCoverage')
         const coverage = result.filter((res) => res.url !== '')
-        console.log("\n\n\n\n\n\n\n"+coverage+"\n\n\n\n\n\n\n");
+        //console.log("\n\n\n\n\n\n\n"+coverage+"\n\n\n\n\n\n\n");
         fs.appendFile('Network Events/js_coverage.json',coverage, function (err) {
             if (err) throw err;
         });
@@ -83,3 +83,21 @@ describe('YouTube page', () => {
     });
 
 });
+
+// describe('Google Home Page, searching stuffs', () => {
+//     before(() => {
+//         browser.cdp('Network', 'enable')
+
+//     });
+
+//     it('Should navigate to Google Home Page and searching stuffs', () => {
+    
+//         browser.url('http://google.com');
+//         $('#lst-ib').setValue('Dam');
+//         //$('.jsb input[type="submit"]').click();
+//         browser.keys('\uE007');
+//         browser.scroll(0,500);
+//         $$('.r a')[1].click();
+//         browser.saveScreenshot('googleDam.png'); 
+//     });
+// });

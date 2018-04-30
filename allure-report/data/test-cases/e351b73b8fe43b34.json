@@ -1,0 +1,120 @@
+{
+  "uid" : "e351b73b8fe43b34",
+  "name" : "should have load YouTube cached Home Page",
+  "fullName" : "YouTube page.should have load YouTube cached Home Page",
+  "historyId" : "2f84ed6fc6547d82cf8decf6f1975df",
+  "time" : {
+    "start" : 1524820148546,
+    "stop" : 1524820150581,
+    "duration" : 2035
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/a9f1b1a7889e32a0c2e46361f34712d5/url",
+      "time" : {
+        "start" : 1524820148547,
+        "stop" : 1524820150554,
+        "duration" : 2007
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fcadee1c9d9707ff",
+        "name" : "Request",
+        "source" : "fcadee1c9d9707ff.json",
+        "type" : "application/json",
+        "size" : 40
+      }, {
+        "uid" : "2a90e4b22a60f7d7",
+        "name" : "Response",
+        "source" : "2a90e4b22a60f7d7.json",
+        "type" : "application/json",
+        "size" : 91
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /wd/hub/session/a9f1b1a7889e32a0c2e46361f34712d5/title",
+      "time" : {
+        "start" : 1524820150557,
+        "stop" : 1524820150580,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "55fe8fe87bb2bc41",
+        "name" : "Response",
+        "source" : "55fe8fe87bb2bc41.json",
+        "type" : "application/json",
+        "size" : 96
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "YouTube page"
+  }, {
+    "name" : "testClass",
+    "value" : "YouTube page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should have load YouTube cached Home Page"
+  }, {
+    "name" : "package",
+    "value" : "YouTube page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f51985bdae3e780e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1524819439028,
+        "stop" : 1524819446118,
+        "duration" : 7090
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e351b73b8fe43b34.json",
+  "parameterValues" : [ "chrome" ]
+}

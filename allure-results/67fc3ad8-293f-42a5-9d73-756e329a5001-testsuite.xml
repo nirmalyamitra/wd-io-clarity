@@ -1,0 +1,191 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1524823586266' stop='1524823645209'>
+    <name>YouTube page</name>
+    <title>YouTube page</title>
+    <test-cases>
+        <test-case start='1524823586273' status='passed' stop='1524823589836'>
+            <name>should have load YouTube Home Page</name>
+            <title>should have load YouTube Home Page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/nmitra/Documents/wd-io-clarity/test/specs/spec1.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1524823586274' status='passed' stop='1524823589791'>
+                    <name>POST /wd/hub/session/d77deae5dec4dfccb2abd0d992879f19/url</name>
+                    <title>POST /wd/hub/session/d77deae5dec4dfccb2abd0d992879f19/url</title>
+                    <attachments>
+                        <attachment title='Request' source='3277f468-c2ff-4736-8004-414d7cc115a0-attachment.json' type='application/json' size='40'/>
+                        <attachment title='Response' source='65d1cf1e-5178-40cc-a1c6-497d28e73eaf-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1524823589799' status='passed' stop='1524823589834'>
+                    <name>GET /wd/hub/session/d77deae5dec4dfccb2abd0d992879f19/title</name>
+                    <title>GET /wd/hub/session/d77deae5dec4dfccb2abd0d992879f19/title</title>
+                    <attachments>
+                        <attachment title='Response' source='3a307aba-acba-4da9-939c-4871414499e9-attachment.json' type='application/json' size='96'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1524823589836' status='passed' stop='1524823591767'>
+            <name>should have load YouTube cached Home Page</name>
+            <title>should have load YouTube cached Home Page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/nmitra/Documents/wd-io-clarity/test/specs/spec1.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1524823589838' status='passed' stop='1524823591714'>
+                    <name>POST /wd/hub/session/d77deae5dec4dfccb2abd0d992879f19/url</name>
+                    <title>POST /wd/hub/session/d77deae5dec4dfccb2abd0d992879f19/url</title>
+                    <attachments>
+                        <attachment title='Request' source='18e4da86-ef1c-4c8f-bee4-805537e9a977-attachment.json' type='application/json' size='40'/>
+                        <attachment title='Response' source='e05f69ff-35a2-4dfa-8654-4207acf3452e-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1524823591718' status='passed' stop='1524823591731'>
+                    <name>GET /wd/hub/session/d77deae5dec4dfccb2abd0d992879f19/title</name>
+                    <title>GET /wd/hub/session/d77deae5dec4dfccb2abd0d992879f19/title</title>
+                    <attachments>
+                        <attachment title='Response' source='2cef8634-25f6-4d77-87f5-11a107fd19fc-attachment.json' type='application/json' size='96'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1524823591767' status='passed' stop='1524823618175'>
+            <name>Should load YouTube on 3G speed</name>
+            <title>Should load YouTube on 3G speed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/nmitra/Documents/wd-io-clarity/test/specs/spec1.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1524823591779' status='passed' stop='1524823618173'>
+                    <name>POST /wd/hub/session/d77deae5dec4dfccb2abd0d992879f19/url</name>
+                    <title>POST /wd/hub/session/d77deae5dec4dfccb2abd0d992879f19/url</title>
+                    <attachments>
+                        <attachment title='Request' source='2d952cc2-739c-4394-9238-2f0abc28d533-attachment.json' type='application/json' size='40'/>
+                        <attachment title='Response' source='83905327-26a4-4013-91ec-6142e3b3ee47-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1524823618176' status='passed' stop='1524823639374'>
+            <name>should take JS coverage</name>
+            <title>should take JS coverage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/nmitra/Documents/wd-io-clarity/test/specs/spec1.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1524823618294' status='passed' stop='1524823627220'>
+                    <name>POST /wd/hub/session/d77deae5dec4dfccb2abd0d992879f19/url</name>
+                    <title>POST /wd/hub/session/d77deae5dec4dfccb2abd0d992879f19/url</title>
+                    <attachments>
+                        <attachment title='Request' source='6abf434e-e0e3-412d-a2e1-5669ce6c9c30-attachment.json' type='application/json' size='34'/>
+                        <attachment title='Response' source='9e8359e0-6ddb-4987-a89a-569c1a784207-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1524823627222' status='passed' stop='1524823627237'>
+                    <name>POST /wd/hub/session/d77deae5dec4dfccb2abd0d992879f19/element</name>
+                    <title>POST /wd/hub/session/d77deae5dec4dfccb2abd0d992879f19/element</title>
+                    <attachments>
+                        <attachment title='Request' source='729bc1ee-fbe4-4538-8616-803cab0a6abf-attachment.json' type='application/json' size='44'/>
+                        <attachment title='Response' source='c31d4198-4aaf-46f2-90fa-815aff4be27c-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1524823627240' status='passed' stop='1524823627258'>
+                    <name>POST /wd/hub/session/d77deae5dec4dfccb2abd0d992879f19/element/0.2172321409681235-1/clear</name>
+                    <title>POST /wd/hub/session/d77deae5dec4dfccb2abd0d992879f19/element/0.2172321409681235-1/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='53f92984-0f06-4361-aa9e-aa90e89a64c8-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1524823627258' status='passed' stop='1524823627337'>
+                    <name>POST /wd/hub/session/d77deae5dec4dfccb2abd0d992879f19/element/0.2172321409681235-1/value</name>
+                    <title>POST /wd/hub/session/d77deae5dec4dfccb2abd0d992879f19/element/0.2172321409681235-1/value</title>
+                    <attachments>
+                        <attachment title='Request' source='eb913808-63ba-4c7e-9ea8-3f852309e1ec-attachment.json' type='application/json' size='81'/>
+                        <attachment title='Response' source='2b88ce41-fed1-45a1-b2d6-8de52938008a-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1524823627340' status='passed' stop='1524823627360'>
+                    <name>POST /wd/hub/session/d77deae5dec4dfccb2abd0d992879f19/element</name>
+                    <title>POST /wd/hub/session/d77deae5dec4dfccb2abd0d992879f19/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2295da24-7600-4629-a39a-324411c2d98a-attachment.json' type='application/json' size='75'/>
+                        <attachment title='Response' source='a43c5fab-e5ab-4c81-b79b-4acbacb010a0-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1524823627366' status='passed' stop='1524823638931'>
+                    <name>POST /wd/hub/session/d77deae5dec4dfccb2abd0d992879f19/element/0.2172321409681235-2/click</name>
+                    <title>POST /wd/hub/session/d77deae5dec4dfccb2abd0d992879f19/element/0.2172321409681235-2/click</title>
+                    <attachments>
+                        <attachment title='Response' source='2b6a77c2-90a9-4262-96d4-8ba33ac56667-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1524823639375' status='passed' stop='1524823645208'>
+            <name>should listen on network events</name>
+            <title>should listen on network events</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/nmitra/Documents/wd-io-clarity/test/specs/spec1.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1524823639375' status='passed' stop='1524823645207'>
+                    <name>POST /wd/hub/session/d77deae5dec4dfccb2abd0d992879f19/url</name>
+                    <title>POST /wd/hub/session/d77deae5dec4dfccb2abd0d992879f19/url</title>
+                    <attachments>
+                        <attachment title='Request' source='24e76cbb-f22d-4895-8d52-283c5c580db2-attachment.json' type='application/json' size='40'/>
+                        <attachment title='Response' source='ac9e4f15-b7b5-47bf-b21c-916afbab03ec-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

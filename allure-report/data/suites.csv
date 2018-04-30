@@ -1,0 +1,7 @@
+"Status","Name","Duration in ms","Description"
+"passed","YouTube page.should have load YouTube Home Page","3278",""
+"passed","YouTube page.should take JS coverage","41209",""
+"passed","YouTube page.should listen on network events","3108",""
+"passed","Google Home Page, searching stuffs.Should navigate to Google Home Page and searching stuffs","16715",""
+"passed","YouTube page.Should load YouTube on 3G speed","26842",""
+"passed","YouTube page.should have load YouTube cached Home Page","2035",""

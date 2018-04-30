@@ -1,3 +1,4 @@
+var allure = require('allure-commandline');
 exports.config = {
     
     //
@@ -10,7 +11,8 @@ exports.config = {
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
     specs: [
-        './test/**/*.js'
+        './test/**/*.js' 
+        //'./test/**/spec1.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -32,7 +34,7 @@ exports.config = {
     // and 30 processes will get spawned. The property handles how many capabilities
     // from the same test should run tests.
     //
-    maxInstances: 10,
+    maxInstances: 2,
     //
     // If you have trouble getting all important capabilities together, check out the
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
@@ -128,7 +130,10 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: http://webdriver.io/guide/reporters/dot.html
-    // reporters: ['dot'],
+     reporters: ['dot'],
+     reoporterOptions: {
+         outputDir: './'
+     },
     //
     // Options to be passed to Jasmine.
     jasmineNodeOpts: {
@@ -218,8 +223,12 @@ exports.config = {
      * Hook that gets executed after the suite has ended
      * @param {Object} suite suite details
      */
-    // afterSuite: function (suite) {
-    // },
+    //  afterSuite: function (suite) {
+    //     var generation = allure(['generate', 'allure-results']);
+    //      generation.on('exit', function(exitCode){
+    //          console.log('Generation is finished with Code:', exitCode)
+    //      });
+    //  },
     
     /**
      * Runs after a WebdriverIO command gets executed

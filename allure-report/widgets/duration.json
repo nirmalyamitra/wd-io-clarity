@@ -1,0 +1,61 @@
+[ {
+  "uid" : "15061d19d97239f3",
+  "name" : "should have load YouTube Home Page",
+  "time" : {
+    "start" : 1524820145268,
+    "stop" : 1524820148546,
+    "duration" : 3278
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "efac36d0ea4f77d8",
+  "name" : "should take JS coverage",
+  "time" : {
+    "start" : 1524820177424,
+    "stop" : 1524820218633,
+    "duration" : 41209
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "899f5221c43c24e",
+  "name" : "should listen on network events",
+  "time" : {
+    "start" : 1524820218633,
+    "stop" : 1524820221741,
+    "duration" : 3108
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5461ee087505b3d0",
+  "name" : "Should navigate to Google Home Page and searching stuffs",
+  "time" : {
+    "start" : 1524819556697,
+    "stop" : 1524819573412,
+    "duration" : 16715
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4578dfaafa07c943",
+  "name" : "Should load YouTube on 3G speed",
+  "time" : {
+    "start" : 1524820150582,
+    "stop" : 1524820177424,
+    "duration" : 26842
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e351b73b8fe43b34",
+  "name" : "should have load YouTube cached Home Page",
+  "time" : {
+    "start" : 1524820148546,
+    "stop" : 1524820150581,
+    "duration" : 2035
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

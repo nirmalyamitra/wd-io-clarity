@@ -1,0 +1,77 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "should have load YouTube Home Page",
+    "uid" : "15061d19d97239f3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1524820145268,
+      "stop" : 1524820148546,
+      "duration" : 3278
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "should take JS coverage",
+    "uid" : "efac36d0ea4f77d8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1524820177424,
+      "stop" : 1524820218633,
+      "duration" : 41209
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "should listen on network events",
+    "uid" : "899f5221c43c24e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1524820218633,
+      "stop" : 1524820221741,
+      "duration" : 3108
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Should navigate to Google Home Page and searching stuffs",
+    "uid" : "5461ee087505b3d0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1524819556697,
+      "stop" : 1524819573412,
+      "duration" : 16715
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Should load YouTube on 3G speed",
+    "uid" : "4578dfaafa07c943",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1524820150582,
+      "stop" : 1524820177424,
+      "duration" : 26842
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "should have load YouTube cached Home Page",
+    "uid" : "e351b73b8fe43b34",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1524820148546,
+      "stop" : 1524820150581,
+      "duration" : 2035
+    },
+    "flaky" : false,
+    "parameters" : [ "chrome" ]
+  } ]
+}

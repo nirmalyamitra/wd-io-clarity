@@ -1,0 +1,7 @@
+[ {
+  "values" : [ "{\"maxInstances\":5,\"browserName\":\"chrome\"}" ],
+  "name" : "capabilities"
+}, {
+  "values" : [ "[\"/Users/nmitra/Documents/wd-io-clarity/test/specs/spec1.js\"]" ],
+  "name" : "spec files"
+} ]
